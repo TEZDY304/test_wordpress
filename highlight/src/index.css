@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    font-family: "Oswald", sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #ffd325;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.number a {
+    padding: 0 12px;
+}
+
+@media screen and (min-width: 1024px) {
+    .iframe-highlight iframe {
+        height: 567px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .iframe-highlight iframe {
+        height: 666px;
+    }
+}
+
+@media screen and (max-width: 1023.98px) {
+    .iframe-highlight iframe {
+        height: 423px;
+    }
+}
+
+@media screen and (max-width: 767.98px) {
+    .iframe-highlight iframe {
+        height: 230px;
+    }
+}
+
+
+
+
+/* .iframe-highlight iframe {
+    height: 502px;
+}
+
+.iframe-chat iframe {
+    height: 502px;
+} */
